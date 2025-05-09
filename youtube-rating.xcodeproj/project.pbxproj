@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		17FD043F2DCE4BC50088E272 /* youtube-rating Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 17FD043E2DCE4BC50088E272 /* youtube-rating Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		17FD04492DCE4BC50088E272 /* youtube-rating Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 17FD04482DCE4BC50088E272 /* youtube-rating Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		17FD04402DCE4BC50088E272 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,7 +30,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				17FD043F2DCE4BC50088E272 /* youtube-rating Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				17FD04492DCE4BC50088E272 /* youtube-rating Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,10 +47,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17FD04202DCE4BC40088E272 /* youtube-rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-rating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17FD04322DCE4BC40088E272 /* youtube-rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-rating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17FD043E2DCE4BC50088E272 /* youtube-rating Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "youtube-rating Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17FD04482DCE4BC50088E272 /* youtube-rating Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "youtube-rating Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FD04202DCE4BC40088E272 /* youtube-rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "youtube-rating.app"; path = "/Users/kevspy/GitProjects/Xcode/youtube-rating/build/Debug-iphoneos/youtube-rating.app"; sourceTree = "<absolute>"; };
+		17FD04322DCE4BC40088E272 /* youtube-rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "youtube-rating.app"; path = "/Users/kevspy/GitProjects/Xcode/youtube-rating/build/Debug/youtube-rating.app"; sourceTree = "<absolute>"; };
+		17FD043E2DCE4BC50088E272 /* youtube-rating Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = "youtube-rating Extension.appex"; path = "/Users/kevspy/GitProjects/Xcode/youtube-rating/build/Debug-iphoneos/youtube-rating Extension.appex"; sourceTree = "<absolute>"; };
+		17FD04482DCE4BC50088E272 /* youtube-rating Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = "youtube-rating Extension.appex"; path = "/Users/kevspy/GitProjects/Xcode/youtube-rating/build/Debug/youtube-rating Extension.appex"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -190,6 +183,11 @@
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
+		17FD04CD2DCE564B0088E272 /* test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = test;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,19 +231,8 @@
 				17FD04332DCE4BC40088E272 /* macOS (App) */,
 				17FD04422DCE4BC50088E272 /* iOS (Extension) */,
 				17FD044C2DCE4BC50088E272 /* macOS (Extension) */,
-				17FD04212DCE4BC40088E272 /* Products */,
+				17FD04CD2DCE564B0088E272 /* test */,
 			);
-			sourceTree = "<group>";
-		};
-		17FD04212DCE4BC40088E272 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				17FD04202DCE4BC40088E272 /* youtube-rating.app */,
-				17FD04322DCE4BC40088E272 /* youtube-rating.app */,
-				17FD043E2DCE4BC50088E272 /* youtube-rating Extension.appex */,
-				17FD04482DCE4BC50088E272 /* youtube-rating Extension.appex */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +364,7 @@
 			mainGroup = 17FD04032DCE4BC10088E272;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 17FD04212DCE4BC40088E272 /* Products */;
+			productRefGroup = 17FD04032DCE4BC10088E272;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
